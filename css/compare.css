@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document developed by VMotors, art director: Yuri Biehl*//* pagina compare ve�culos */
+
+.geralCompare {
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+	
+}
+.compareTop {
+	float: left;
+	width: 980px;
+	height: 55px;
+	padding-top:30px;
+}
+.titleTopCompare {
+	float:left;
+	padding-left:140px;
+	width:247px;
+}
+.titleTopCompare strong {
+	float: left;
+	font: normal 18px arial;
+	color: #333333;
+	text-align: left;
+}
+.titleTopCompare p {
+	padding-top:5px;
+	float: left;
+	font: normal 12px arial;
+	color: #333333;
+	text-align: left;
+}
+.compareTop a {
+	float: right;
+	width: 110px;
+	height: 28px;   
+}
+#tabelaCompare {
+	float: left;
+	width: 980px;/*height: 100%;*/
+
+			}
+.lineOne {
+	height: 239px;
+	width: 1000px;
+}
+.linePadrao {
+	height: 35px;
+}
+.linePadraoDois {
+	height: 55px;
+}
+.linePadraoFinal {
+	height: 10px;
+}
+.lineOpcionaisUm {
+	height: 35px;
+}
+.lineOpcionais {
+	height: 100%;
+}
+.compareBottom {
+	float: right;
+	width: 156px;
+	height: 60px;
+}
+table#tabelaCompare tr.linePadraoDois td strong {
+	line-height: 20px;
+	float: left;
+	font: normal 12px arial;
+	color: #333333;
+	text-align: left;
+}
+table#tabelaCompare tr.linePadraoDois td {
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #CCCCCC;
+}
+table#tabelaCompare tr.linePadraoDois th {
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #CCCCCC;
+}
+table#tabelaCompare tr.lineOpcionaisUm td {
+	border-top: 1px solid #FFFFFF;
+}
+table#tabelaCompare tr.lineOpcionaisUm th {
+	border-top:1px solid #FFFFFF;
+}
+table#tabelaCompare tr.lineOpcionaisUm td strong {
+	line-height: 20px;
+	float: left;
+	font: normal 12px arial;
+    color: #333333
+	text-align: left;
+}
+table#tabelaCompare tr.lineOpcionais td {
+  border-bottom:1px solid #CCCCCC; 
+}
+table#tabelaCompare tr.lineOpcionais th {
+ border-bottom:1px solid #CCCCCC;
+}
+table#tabelaCompare tr.lineOpcionais td strong {
+	line-height: 20px;
+	float: left;
+	font: normal 12px arial;
+ 	color:#333333;
+	text-align: left;
+}
+table#tabelaCompare tr.lineOpcionais td ul {
+	padding-bottom:20px;
+ color: #333333;
+}
+table#tabelaCompare tr.lineOpcionais td li {
+	border-bottom:1px solid #FFFFFF;
+	color:#666666;
+	height:15px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+table#tabelaCompare tr.linePadrao td strong {
+	float: left;
+	font: normal 12px arial;
+	color:#333333;
+	text-align: left;
+}
+table#tabelaCompare tr.linePadrao td {
+border-bottom:1px solid #CCCCCC;
+border-top:1px solid #FFFFFF;
+}
+table#tabelaCompare tr.linePadrao th {
+border-bottom:1px solid #CCCCCC;
+border-top:1px solid #FFFFFF;
+}
+table#tabelaCompare tr.linePadraoFinal td strong {
+	float: left;
+	font: normal 12px arial;
+	color: #333333;
+	text-align: left;
+}
+table#tabelaCompare tr.linePadraoFinal td {
+	border-top: 1px solid #FFFFFF;
+}
+table#tabelaCompare tr.linePadraoFinal th {
+	border-top:1px solid #FFFFFF;
+}
+.imgCompare {
+	background-image: url(imagesCompare/bgPictureCar.png);
+	width: 265px;
+	height: 195px;
+	float: left;
+}
+.imgCompare img {
+	background-image: url(imagesCompare/bgPictureCar.png);
+	width: 248px;
+	height: 183px;
+	float: left;
+	padding-left:6px;
+	padding-top:5px;
+}
+th {
+	width: 140px;
+	text-align: left;
+	font:bold 14px arial;
+	color:#333333;
+}
+.retirarVeiculosCompare {
+	float: left;
+	width: 130px;
+	height: 25px;
+	padding-left:14px;
+}
+.retirarVeiculosCompare img {
+	float: left;
+}
+.retirarVeiculosCompare a {
+	padding-left:6px;
+	padding-top:5px;
+	float: left;
+	font: normal 12px arial;
+ color: #'.$corTexto.';
+	text-decoration: none;
+}
+.retirarVeiculosCompare a:hover {
+	text-decoration: underline;
+ color: #'.$corTexto.';
+}
+td {
+ background-color: #'.$corFundo.';
+}

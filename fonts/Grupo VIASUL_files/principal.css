@@ -1,0 +1,77 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,strong, b,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-weight:normal;border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;outline:none;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;outline:none;}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none; cursor:pointer; color:inherit;}
+
+
+
+@font-face {
+    font-family: 'berthold_akzidenz_grotesk_sBold';
+    src: url('../fonts/akzidgrobesup-webfont.eot');
+    src: url('../fonts/akzidgrobesup-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidgrobesup-webfont.woff') format('woff'),
+         url('../fonts/akzidgrobesup-webfont.ttf') format('truetype'),
+         url('../fonts/akzidgrobesup-webfont.svg#berthold_akzidenz_grotesk_bRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'berthold_akzidenz_grotesk_bRg';
+    src: url('../fonts/akzidgrobereg-webfont.eot');
+    src: url('../fonts/akzidgrobereg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidgrobereg-webfont.woff') format('woff'),
+         url('../fonts/akzidgrobereg-webfont.ttf') format('truetype'),
+         url('../fonts/akzidgrobereg-webfont.svg#berthold_akzidenz_grotesk_bRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'berthold_akzidenz_grotesk_bold';
+    src: url('../fonts/akzidgrobebol-webfont.eot');
+    src: url('../fonts/akzidgrobebol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidgrobebol-webfont.woff') format('woff'),
+         url('../fonts/akzidgrobebol-webfont.ttf') format('truetype'),
+         url('../fonts/akzidgrobebol-webfont.svg#berthold_akzidenz_grotesk_bRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body { background:url(../img/background.jpg);font-family: 'berthold_akzidenz_grotesk_bRg'; font-size:11px; color:#6d6e70;}
+a:hover { text-decoration:underline;}
+.header { width:100%; height:92px; background:#fff; border-bottom:1px solid #e1e1e1;}
+.topo { width:960px; height:47px; margin:0 auto; text-align:center; padding-top:45px;}
+.corpo { width:960px; min-height:400px; margin:0 auto; position:relative; background:url(../img/mapaMundi.png) no-repeat center center;}
+.blocoMarcas { height:92px; width:960px; position:absolute; left:50%; top:50%; margin-left:-480px; margin-top:-46px;}
+
+ul.marcas { width:960px; height:125px; margin:0 auto;}
+ul.marcas li { float:left; margin:0 25px; position:relative; width:140px; height:92px;}
+ul.marcas li img {position:absolute; bottom:0; left:0;}
+
+ul.marcasSec { width:421px; height:125px; margin:70px auto 0;}
+ul.marcasSec li { float:left; margin:0 25px; position:relative; width:160px; height:92px;}
+ul.marcasSec li img {position:absolute; bottom:0; left:0;}
+
+.pracas { position:absolute; bottom:-30px; }
+.praViasul {width:144px; margin-left:-72px; left:50%;}
+.praGranvia {width:74px; margin-left:-37px; left:50%;}
+.praIntervia {width:74px; margin-left:-37px; left:50%;}
+.praRenault {width:222px; margin-left:-111px; left:50%;}
+.praNissan {width:144px; margin-left:-72px; left:50%;}
+.praV1 {width:74px; margin-left:-37px; left:50%;}
+
+.pracas a { display:inline-block; float:left; padding-left:11px; margin:0 5px;}
+
+.praViasul a { background:url(../img/pins.png) 0 0px no-repeat;}
+.praGranvia a { background:url(../img/pins.png) 0 -30px no-repeat;}
+.praIntervia a { background:url(../img/pins.png) 0 -60px no-repeat;}
+.praRenault a { background:url(../img/pins.png) 0 -120px no-repeat;}
+.praNissan a { background:url(../img/pins.png) 0 -90px no-repeat;}
+.praSeminovos a { background:url(../img/pins.png) 0 -150px no-repeat;}
+.praV1 a { background:url(../img/pins.png) 0 -180px no-repeat;}

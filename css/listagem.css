@@ -1,0 +1,906 @@
+@charset "utf-8";
+ul, ul li {margin:0; padding:0;}
+/* CSS Document developed by VMotors, art director: Yuri Biehl*//* pagina listagem carros semi novos teste */
+
+		.geral_listagem {
+			margin: 0 auto;
+			padding: 0;
+			width:980px;
+			padding-top: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.enviarBuscaAvan {
+
+			float:left;
+
+			height:30px;
+
+			padding-top:3px;
+
+			width:92px;
+
+		}
+
+		.enviarBuscaFechar {
+
+			float:left;
+
+			height:30px;
+
+			padding-top:4px;
+
+			width:92px;
+
+		}
+
+		#buscaAvancada li {
+
+			list-style: none;
+
+			width: 142px;
+
+			height:30px;
+
+			float: left;
+
+			padding:2px;
+
+		}
+
+		#buscaAvancada ul li a {
+
+			display:block;
+
+			float:left;
+
+			height:30px;
+
+			padding:2px;
+
+			width:142px;
+
+		}
+
+		#buscaAvancada ul li {
+
+			position: relative;
+
+		}
+
+		#buscaAvancada li ul {
+			background-color:#FFFFFF;
+			border:1px solid #120000;
+			display:none;
+			left:147px;
+			position:absolute;
+			top:4px;
+		}
+
+		#fonteFiltro {
+
+			color:#333333;
+
+			float:left;
+
+			height:22px;
+
+			padding-left:10px;
+
+			padding-top:10px;
+
+			width:192px;
+
+		}
+
+		#dadosFiltro_um {
+
+			color:#333333;
+
+			float:left;
+
+			height:22px;
+
+			padding-left:5px;
+
+			padding-top:10px;
+
+			width:190px;
+
+		}
+
+		#dadosFiltro_tres {
+
+			color:#333333;
+
+			float:left;
+
+			height:22px;
+
+			padding-left:15px;
+
+			padding-top:10px;
+
+			width:189px;
+
+		}
+
+		#dadosFiltro_quatro {
+
+			color:#333333;
+
+			float:left;
+
+			height:22px;
+
+			padding-left:10px;
+
+			padding-top:10px;
+
+			width:189px;
+
+		}
+
+		#dadosFiltro_dois {
+
+			color:#333333;
+
+			float:left;
+
+			height:22px;
+
+			padding-left:10px;
+
+			padding-top:10px;
+
+			width:190px;
+
+		}
+
+		#dadosFiltro_cinco {
+
+			color:#333333;
+
+			float:left;
+
+			height:22px;
+
+			padding-top:10px;
+
+			width:190px;
+
+		}
+
+		/*#buscaAvancada li:hover ul {
+
+			display: block;
+
+		}*/
+
+		#camposBusca {
+
+			float:left;
+
+			height:76px;
+
+			width:615px;
+
+		}
+
+		.enviarOrdenacao {
+
+			float:left;
+
+			padding-left:6px;
+
+			padding-top:4px;
+
+			width:90px;
+
+		}
+
+		.topo_listagem {
+
+			float: left;
+
+			width: 980px;
+
+			padding: 0px 10px 0px 10px;
+
+			height: 160px;
+
+		}
+
+		#montadoras_carros1 {
+
+			/*float: left;*/
+
+			width: 1000px;
+
+			height: 37px;
+
+			background-image: url(montadoras/background_montadoras.png);
+
+			background-position: center;
+
+			background-repeat: no-repeat;
+
+			text-align: center;
+
+		}
+
+		#montadoras_carros {
+
+			/*float: left;*/
+
+			width: 960px;
+
+			height: 37px;
+			background-color:#FFFFFF;
+
+			background-position: center;
+
+			background-repeat: no-repeat;
+
+			text-align: center;
+
+		}
+
+		#miolo_montadoras {
+
+
+			height:28px;
+
+			padding-top:4px;
+
+			width:980px;
+
+		}
+
+		.busca {
+
+			height:80px;
+
+			padding-top:10px;
+
+			width:445px;
+
+		}
+
+		.paginacaoBusca {
+
+			float: left;
+
+			height:135px;
+
+			width:445px;
+
+		}
+
+		.paginacaoBusca a {
+
+			float: left;
+
+			font: normal 16px arial;
+
+			color: #000000;
+
+			text-decoration: none;
+
+			padding: 10px 10px 0 10px;
+
+		}
+
+		.paginacao {
+
+			float: left;
+
+			height:35px;
+
+			width:470px;
+
+		}
+
+		.paginacao2 {
+
+			height:35px;
+
+			width:470px;
+
+		}
+
+		.paginacao2 a {
+			float: left;
+			font: bold 12px arial;
+			color: #666666;
+			text-decoration: none;
+			padding: 10px 10px 0 10px;
+		}
+
+		#selectOrdenacao select {
+
+			float: left;
+
+			background-color: #FFFFFF;
+
+			background-image:url("../vanessa/images/bg_input.jpg");
+
+			background-repeat: repeat-x;
+
+			border-color:#D4D4D4;
+
+			border-style:solid;
+
+			border-width:2px 1px 1px 2px;
+
+			color:black;
+
+			font-size:14px;
+
+			height:29px;
+
+			margin-top:3px;
+
+		}
+
+		.paginacao a {
+			color:#666666;
+			float:left;
+			font:bold 12px arial;
+			padding:10px 10px 0;
+			text-decoration:none;
+		}
+
+		.buttonCompare {
+
+			float:left;
+
+			height:35px;
+
+			padding-left:20px;
+
+			padding-top:10px;
+
+			width:725px;
+
+		}
+
+		.buttonCompare a {
+
+			float: left;
+
+		}
+
+		.buttonCompare strong {
+
+			color:#000000;
+
+			float:left;
+
+			font:14px arial;
+
+			height:17px;
+
+			padding-top:5px;
+
+			width:515px;
+
+		}
+
+		.legenda_extra {
+
+			float:left;
+
+			height:33px;
+
+			width:502px;
+
+			padding-bottom:5px;
+
+			padding-left:64px;
+
+		}
+
+		.legenda_extra img {
+
+			float: left;
+
+		}
+
+		.legenda_extra p {
+
+			float: left;
+
+			font: normal 12px arial;
+
+			color: #000000;
+
+			line-height: 30px;
+
+			padding: 0 0 0 10px;
+
+		}
+
+		.legenda {
+
+			float:right;
+
+			height:110px;
+
+			padding-top:10px;
+
+			width:530px;
+
+		}
+
+		.item {
+
+			border-right:1px solid #333333;
+
+			float:left;
+
+			padding-left:10px;
+
+			padding-top:2px;
+
+			width:155px;
+
+		}
+
+		.item p {
+
+			float: left;
+
+			font: normal 12px arial;
+
+			color: #000000;
+
+			/* line-height: 30px; */
+
+			padding:0 0 0 5px;
+			margin:0;
+
+		}
+
+		.item img {
+
+			float: left; width:21px; height:21px;
+
+		}
+
+		.linha_list {
+			float: left;
+			width: 990px;
+			height: 335px;
+			padding: 20px 5px 20px 5px;
+			border-bottom:0px solid #CCCCCC;
+		}
+
+		#detalhe_carro {
+
+			float: left;
+
+			width: 327px;
+
+			height: 335px;
+
+			background-image:url("images/background_detalhe_carro.png");
+			background-position:center top;
+			background-repeat:no-repeat;
+
+		}
+
+#detalhe_carro h3 {
+	color:#000000;
+	float:left;
+	font:12px/18px arial;
+	height:24px;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+#detalhe_carro h2 {
+	color:#000000;
+	float:left;
+	font:bold 12px/18px arial;
+	height:24px;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+		#detalhe_carro p {
+			float: left;
+			font: normal 12px arial;
+			color:#000000;
+			height:24px;
+			padding-left:10px;
+			padding-top:5px;
+			line-height: 18px;
+		}
+
+		.fotos_carro {
+
+			float: left;
+
+		}
+
+		.outer ul {
+
+			float: left;
+
+		}
+
+		.outer .thumbs img {
+
+			float: left;
+
+			border: 1px solid #FFFFFF;
+
+		}
+
+		.outer .thumbs li {
+
+			float: left;
+
+			padding-bottom:6px;
+
+		}
+
+		.outer li {
+
+			float: left;
+
+			list-style: none;
+
+		}
+
+		.outer {
+
+			float:left;
+
+			padding-left:10px;
+
+			width:308px;
+
+		}
+
+		.descricao_visible {
+
+			float: left;
+
+			width: 160px;
+
+			height: 100px;
+
+			padding-top:10px;
+
+		}
+
+		.descricao_visible strong {
+
+			float: left;
+
+			font: normal 12px arial;
+
+			color: #000000;
+
+			padding-right:5px;
+
+			padding-top:5px;
+
+		}
+
+.descricao_visible span {
+		color:#990000;
+		float:left;
+		font:bold 16px arial;
+}
+
+		.box_compare {
+
+			float: left;
+
+			height:15px;
+
+			padding-top:5px;
+
+			width:160px;
+
+		}
+
+		.box_compare input {
+
+			float: left;
+
+			margin:0;
+
+			padding:0;
+
+		}
+
+		* + html .box_compare strong {
+
+			padding-top: 5px;
+
+			margin-top: 4px;
+
+		}
+
+		.box_compare strong {
+
+			float: left;
+
+			font: normal 12px arial;
+
+			color: #000000;
+
+			line-height: 12px;
+
+		}
+
+		#box_icones {
+
+			width: 130px;
+
+			height: 100px;
+
+			float: left;
+
+			padding-top:18px;
+
+		}
+
+		#link_icone {
+
+			width: 46px;
+
+			height: 44px;
+
+			float: left;
+
+			padding:2px;
+
+		}
+
+		.subLista li {
+
+			list-style: none;
+
+			
+			width: 32px;
+
+			height: 32px;
+			
+
+			float: left;
+
+			padding:2px;
+
+		}
+		.subLista ul li img {width:21px; height:21px; padding:6px; border:1px solid #CCC;}
+
+		.subLista ul li a {
+			/*width: 46px;
+			height: 44px;
+			float: left;
+			padding:2px;*/
+			display: block;
+		}
+
+		.subLista ul li {
+
+			position: relative;
+
+		}
+
+		.subLista li ul {
+
+			position: absolute;
+
+			left:40px;
+
+			top: 1px;
+
+			display:none;
+
+		}
+
+		.subLista li:hover ul {
+
+			display: block;
+
+		}
+
+		.enviar_proposta {
+
+			background-color:#FFFFFF;
+
+			border-bottom:1px solid #003300;
+
+			border-right:1px solid #003300;
+
+			border-top:1px solid #003300;
+
+			float:right;
+
+			height:243px;
+
+			padding:10px;
+
+			width:210px;
+
+		}
+
+		#detalhe_carro .enviar_proposta strong {
+
+			font: normal 14px arial;
+
+			color: #003300;
+
+			padding-left:5px;
+
+		}
+
+		#detalhe_carro .enviar_proposta p {
+
+			font: bold 12px arial;
+
+			color: #003300;
+
+			float:left;
+
+			padding-left:0;
+
+		}
+
+		.campo {
+
+			float:left;
+
+			height:22px;
+
+			padding-top:10px;
+
+			width:213px;
+
+		}
+
+		.campo img {
+
+			float: right;
+
+		}
+
+		.campo input {
+
+			float: right;
+
+			width: 120px;
+
+			height: 18px;
+
+			color:#1D5B1D;
+
+			font: normal 12px arial;
+
+			background-color: #F0FFF0;
+
+			border-bottom:1px solid #999999;
+
+			border-top:1px solid #999999;
+
+			border-left: none;
+
+			border-right: none;
+
+		}
+
+		.telefone {
+
+			float: left;
+
+		}
+
+		.outro_campo {
+
+			float:left;
+
+			height:53px;
+
+			width:213px;
+
+		}
+
+		#detalhe_carro .enviar_proposta .outro_campo p {
+
+			float:right;
+
+			height:23px;
+
+			line-height:27px;
+
+			padding:0;
+
+			text-align:left;
+
+			width:152px;
+
+		}
+
+		.outro_campo input {
+
+			float:right;
+
+			margin-right:5px;
+
+			margin-top:7px;
+
+		}
+
+		.comentario {
+
+			float: left;
+
+			width:213px;
+
+			height:57px;
+
+		}
+
+		.comentario textarea {
+
+			background-color: #F0FFF0;
+
+			border:1px solid #999999;
+
+			float: right;
+
+			margin-top:6px;
+
+			color:#1D5B1D;
+
+			font: normal 12px arial;
+
+		}
+
+		.button_enviar_proposta {
+
+			float:right;
+
+			padding-top:7px;
+
+		}
+
+		.subLista .enviar_proposta .button_enviar_proposta a {
+			background-image: url(button/button_send_proposta.jpg);
+			width: 115px;
+			height: 29px;
+			float: left;
+			padding:0;
+		}
+
+		.back_proposta {
+			background-image:url(images/ponta_back.png);
+			background-position:left top;
+			background-repeat:no-repeat;
+			border-top:1px solid #003300;
+			float:left;
+			width:237px;
+		} 
+
+		#rodape {
+
+
+		}
+#buscaAvancada li ul{
+	height:92px;
+	
+	}
+	
+#ano2{ margin:-22px 0 0 135px; float:left;}
+
+#dadosFiltro_cinco{margin-top: 18px;
+margin-left: 5px;}
+
+#preco2{margin: -22px 0 0 150px;}
